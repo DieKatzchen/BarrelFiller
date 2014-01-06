@@ -1,15 +1,20 @@
 {
-  Container Filler 0.1
+  Container Filler 0.2
   By DieKatzchen
   
 
-  Takes a selected list of items and places them inside a selected container
+  Select as many items as you want and up to 20 containers
+  then run the script, it will ask you for a number and add
+  that many of each item to each container.  Doesn't do much
+  input checking yet, and if you are adding items between
+  .esps it deosn't add masters yet, you have to do that
+  yourself before running the script.
 
 }
 unit userscript;
 var
   slItems: TStringList;
-  slContainers: Array[0..20] of IInterface;
+  slContainers: Array[0..19] of IInterface;
   cntCount: int;
   
 function CountBox: string;
