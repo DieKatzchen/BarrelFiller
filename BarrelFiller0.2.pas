@@ -70,7 +70,7 @@ begin
   //  initialize stringlists
   slItems := TStringList.Create;
   cntCount := 0;
-  For i := 1 to 20 do
+  For i := 0 to 19 do
     slContainers[i]  := 0;
 end;
 
